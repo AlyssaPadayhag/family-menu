@@ -1,4 +1,5 @@
 import './App.scss';
+import DateSettings from './DateSetting';
 
 function App() {
   return (
@@ -6,6 +7,7 @@ function App() {
       <header className="App-header">
         <h1>Family Menu</h1>
       </header>
+      <DateSettings />
     </div>
   );
 }
